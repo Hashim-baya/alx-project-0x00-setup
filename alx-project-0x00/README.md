@@ -1,40 +1,57 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# Airbnb Clone – Next.js Learning Project
 
-## Getting Started
+This project is a hands-on learning exercise built with **Next.js**, **React**, **TypeScript**, and **Tailwind CSS**. It replicates core features of Airbnb’s UI—such as property listings, ratings, and interactivity—while focusing on modern web development best practices.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Project Description
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The project is built using **Next.js** to demonstrate how to create a performant, scalable, and maintainable web application. It provides real-world examples and tasks that help solidify your understanding of key front-end concepts.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+---
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+## 🎯 Learning Objectives
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+By completing this project, you will:
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Scaffold a Next.js project with TypeScript
+- Understand Next.js folder structure and best practices
+- Implement basic routing with the **Pages Router**
+- Create reusable, typed React components
+- Use TypeScript interfaces to type props
+- Organize static assets and components effectively
+- Apply responsive design using Tailwind CSS
+- Set up ESLint for consistent, clean code
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🛠️ Requirements
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+- Node.js (v16 or later)
+- npm or yarn
+- Visual Studio Code (or preferred IDE)
+- Next.js v13+
+- TypeScript
+- Tailwind CSS
+- ESLint
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 📁 Project Structure
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+```plaintext
+alx-project-0x00/
+├── components/
+│   ├── Card.tsx
+│   └── Pill.tsx
+├── interfaces/
+│   └── index.ts
+├── pages/
+│   ├── index.tsx
+│   ├── about.tsx
+│   └── landing.tsx
+├── public/
+│   └── assets/
+│       └── images/
+│           ├── house.png
+│           └── star.png
